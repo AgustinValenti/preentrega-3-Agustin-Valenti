@@ -1,0 +1,43 @@
+@media (max-width: 756px) {
+    header {
+      display: none;
+    
+    }
+  }
+  
+  @media (min-width: 756px) {
+    .menu {
+      display: none;
+    }
+  }
+  
+body{ padding-left: 50px ;
+padding-right: 50px;
+
+}
+
+ 
+  
+  
+  
+    h2{ text-align: center;
+    border: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+   background-color:#469dff;   
+   animation: colorChange 5s infinite;   
+}
+
+  p{ 
+  padding-bottom: 3px;
+  padding-top: 3px;
+margin-top: 4px;
+
+
+} 
+img { width: 200px;
+    height: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+  @keyframes colorChange { 0% { background-color: red; } 25% { background-color: yellow; } 50% { background-color: green; } 75% { background-color: blue; } 100% { background-color: purple; } }

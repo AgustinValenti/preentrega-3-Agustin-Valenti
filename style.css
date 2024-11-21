@@ -1,0 +1,104 @@
+header {
+  background-color: rgb(55, 0, 128);
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+
+.mi-boton {
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.mi-boton:hover {
+  background-color: #45a049;
+  transition: all 0.3s ease;
+  transform: scale(1.3);
+}
+
+.mi-boton:active {
+  background-color: #3e8e41;
+}
+
+.nav-link {
+  padding: 5px;
+}
+
+.nav-link:hover {
+  background: red;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+
+.nav-link:visited {
+  color: purple;
+  font-weight: bold;
+}
+
+@media (max-width: 756px) {
+  header {
+    display: none;
+  }
+}
+@media (min-width: 756px) {
+  .menu {
+    display: none;
+  }
+}
+body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h2 {
+  text-align: center;
+  border: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #469dff;
+  animation: colorChange 5s infinite;
+}
+
+p {
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-top: 4px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+footer {
+  background-color: cadetblue;
+  width: 100%;
+  height: 20%;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
